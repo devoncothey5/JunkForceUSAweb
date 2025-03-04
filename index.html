@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JunkForce USA</title>
+  <style>
+    /* Reset & Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #fff;
+    }
+    /* Navigation Bar */
+    nav {
+      background: #002244; /* Navy Blue */
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav .logo {
+      max-width: 150px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 15px;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #ff0000; /* Red on hover */
+    }
+    /* Header Section */
+    header {
+      position: relative;
+      height: 60vh;
+      background: url('https://github.com/devoncothey5/JunkForceUSAweb/blob/main/junkforce%20truck%20picture.png?raw=true') no-repeat center center/cover;
+    }
+    header .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    header .header-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    /* Content Sections */
+    .container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .container h2 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+      border-bottom: 2px solid #ff0000; /* Red accent */
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .container p, .container ul {
+      margin-bottom: 20px;
+    }
+    .container ul {
+      list-style: disc inside;
+    }
+    /* Footer */
+    footer {
+      background: #002244; /* Navy Blue */
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    /* Links */
+    a {
+      color: #ff0000; /* Red for links */
+    }
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      header {
+        height: 40vh;
+      }
+      nav {
+        flex-direction: column;
+      }
+      header h1 {
+        font-size: 2.5rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-logo">
+      <img src="https://github.com/devoncothey5/JunkForceUSAweb/blob/main/junkforce%20logo.png?raw=true" alt="JunkForce USA Logo" class="logo" />
+    </div>
+    <div class="nav-menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header id="home">
+    <div class="overlay"></div>
+    <div class="header-content">
+      <h1>JunkForce USA</h1>
+      <p>Your Partner in Decluttering & Hauling Solutions</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="container">
+    <h2>About Us</h2>
+    <p>
+      At JunkForce USA, we specialize in professional junk removal and hauling services for both residential and commercial clients. Our dedicated team is committed to providing hassle-free, efficient, and reliable services to help you reclaim your space. Proudly serving Milton-Freewater, Walla Walla and surrounding areas.
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="container">
+    <h2>Our Services</h2>
+    <p>
+      We provide a range of services tailored to your needs:
+    </p>
+    <ul>
+      <li><strong>Junk Removal:</strong> Fast and efficient removal of unwanted items.</li>
+      <li><strong>Rental Clean-Outs:</strong> Thorough clean-outs for rental properties.</li>
+      <li><strong>Green Waste Removal:</strong> Eco-friendly removal of organic and green waste.</li>
+      <li><strong>Storage Unit & Garage Clean-Outs:</strong> Declutter your storage spaces with ease.</li>
+      <li><strong>Additional Services:</strong> We also handle other situational projects as needed.</li>
+    </ul>
+    <p>
+      We offer flexible payment options. Call for estimates!
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or need a quote, feel free to reach out:</p>
+    <p><strong>Phone:</strong> <a href="tel:5097300734">509-730-0734</a></p>
+    <p><strong>Email:</strong> <a href="mailto:junkforcepros@gmail.com">junkforcepros@gmail.com</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 JunkForce USA. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+
